@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD SIAM AHMAD - Portfolio</title>
+    <meta name="description" content="MD SIAM AHMAD - Full Stack Developer specializing in modern web development, creating exceptional digital experiences with cutting-edge technology.">
+    <meta name="keywords" content="Full Stack Developer, Web Developer, JavaScript, React, Node.js, Portfolio">
+    <meta name="author" content="MD SIAM AHMAD">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="MD SIAM AHMAD - Portfolio">
+    <meta property="og:description" content="Full Stack Developer specializing in modern web development">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://your-domain.com">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main" class="sr-only">Skip to main content</a>
+    
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo" aria-label="Go to homepage">
+                MD SIAM AHMAD
+            </a>
+            <ul class="nav-menu" id="nav-menu" role="menubar">
+                <li role="none">
+                    <a href="#home" class="nav-link" role="menuitem" aria-current="page">Home</a>
+                </li>
+                <li role="none">
+                    <a href="#about" class="nav-link" role="menuitem">About</a>
+                </li>
+                <li role="none">
+                    <a href="#skills" class="nav-link" role="menuitem">Skills</a>
+                </li>
+                <li role="none">
+                    <a href="#projects" class="nav-link" role="menuitem">Projects</a>
+                </li>
+                <li role="none">
+                    <a href="#contact" class="nav-link" role="menuitem">Contact</a>
+                </li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main">
+        <!-- Hero Section -->
+        <section id="home" class="hero" aria-label="Introduction">
+            <div class="hero-background">
+                <div class="hero-particles"></div>
+                <div class="hero-gradient"></div>
+            </div>
+            <div class="container">
+                <div class="hero-wrapper">
+                    <div class="hero-content">
+                        <div class="hero-badge">
+                            <span class="badge-icon">👋</span>
+                            <span class="badge-text">Hello, I'm</span>
+                        </div>
+                        <h1 class="hero-title">
+                            <span class="title-line">MD SIAM</span>
+                            <span class="title-line highlight">AHMAD</span>
+                        </h1>
+                        <div class="hero-role">
+                            <span class="role-text">Full Stack Developer</span>
+                            <div class="role-underline"></div>
+                        </div>
+                        <p class="hero-description">
+                            Crafting exceptional digital experiences through innovative web development. 
+                            I combine cutting-edge technology with creative design to build applications 
+                            that solve real-world problems and make a meaningful impact.
+                        </p>
+                        <div class="hero-stats">
+                            <div class="stat">
+                                <span class="stat-number">50+</span>
+                                <span class="stat-label">Projects</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">3+</span>
+                                <span class="stat-label">Years</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-label">Satisfaction</span>
+                            </div>
+                        </div>
+                        <div class="hero-cta">
+                            <a href="#projects" class="btn btn-primary">
+                                <span>View My Work</span>
+                                <i class="fas fa-rocket" aria-hidden="true"></i>
+                            </a>
+                            <a href="#contact" class="btn btn-outline">
+                                <span>Get In Touch</span>
+                                <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hero-visual">
+                        <div class="profile-container">
+                            <div class="profile-frame">
+                                <img src="assets/WhatsApp Image 2025-09-28 at 13.57.40_d2e143df.jpg" 
+                                     alt="MD SIAM AHMAD - Full Stack Developer" 
+                                     class="profile-image"
+                                     loading="eager">
+                            </div>
+                            <div class="floating-elements">
+                                <div class="floating-card tech-card">
+                                    <i class="fab fa-react"></i>
+                                    <span>React</span>
+                                </div>
+                                <div class="floating-card tech-card">
+                                    <i class="fab fa-node-js"></i>
+                                    <span>Node.js</span>
+                                </div>
+                                <div class="floating-card tech-card">
+                                    <i class="fab fa-js-square"></i>
+                                    <span>JavaScript</span>
+                                </div>
+                                <div class="floating-card tech-card">
+                                    <i class="fab fa-python"></i>
+                                    <span>Python</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about" aria-label="About me">
+            <div class="container">
+                <header class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-subtitle">
+                        Passionate developer with a love for creating innovative solutions
+                    </p>
+                </header>
+                
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            I'm a dedicated Full Stack Developer with over 3 years of experience in creating 
+                            robust web applications. My journey in technology started with a curiosity about 
+                            how things work, which evolved into a passion for building digital solutions that 
+                            solve real-world problems.
+                        </p>
+                        <p>
+                            I specialize in modern JavaScript frameworks, backend development, and creating 
+                            seamless user experiences. My approach combines technical expertise with creative 
+                            problem-solving to deliver applications that are not only functional but also 
+                            intuitive and engaging.
+                        </p>
+                        
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">50+</span>
+                                <span class="stat-label">Projects Completed</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">3+</span>
+                                <span class="stat-label">Years Experience</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-label">Client Satisfaction</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills" aria-label="My skills">
+            <div class="container">
+                <header class="section-header">
+                    <h2 class="section-title">Skills & Expertise</h2>
+                    <p class="section-subtitle">
+                        Technologies and tools I use to bring ideas to life
+                    </p>
+                </header>
+                
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>
+                            <i class="fas fa-code" aria-hidden="true"></i>
+                            Frontend Development
+                        </h3>
+                        <div class="skill-list">
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Vue.js</span>
+                            <span class="skill-tag">TypeScript</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">Tailwind CSS</span>
+                            <span class="skill-tag">SASS</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>
+                            <i class="fas fa-server" aria-hidden="true"></i>
+                            Backend Development
+                        </h3>
+                        <div class="skill-list">
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Express.js</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Django</span>
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">MongoDB</span>
+                            <span class="skill-tag">Redis</span>
+                            <span class="skill-tag">GraphQL</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>
+                            <i class="fas fa-tools" aria-hidden="true"></i>
+                            Tools & Technologies
+                        </h3>
+                        <div class="skill-list">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">AWS</span>
+                            <span class="skill-tag">Vercel</span>
+                            <span class="skill-tag">Webpack</span>
+                            <span class="skill-tag">Vite</span>
+                            <span class="skill-tag">Jest</span>
+                            <span class="skill-tag">Cypress</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects" aria-label="My projects">
+            <div class="container">
+                <header class="section-header">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-subtitle">
+                        A showcase of my recent work and creative solutions
+                    </p>
+                </header>
+                
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-image" aria-label="E-commerce Platform Preview"></div>
+                        <div class="project-content">
+                            <h3 class="project-title">E-commerce Platform</h3>
+                            <p class="project-description">
+                                A full-featured e-commerce platform with user authentication, 
+                                payment processing, and admin dashboard. Built with modern 
+                                technologies for optimal performance.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">Stripe</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="View live demo">
+                                    <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                                    Live Demo
+                                </a>
+                                <a href="#" class="project-link" aria-label="View source code">
+                                    <i class="fab fa-github" aria-hidden="true"></i>
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="project-card">
+                        <div class="project-image" aria-label="Task Management App Preview"></div>
+                        <div class="project-content">
+                            <h3 class="project-title">Task Management App</h3>
+                            <p class="project-description">
+                                A collaborative task management application with real-time updates, 
+                                team collaboration features, and intuitive drag-and-drop interface.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Vue.js</span>
+                                <span class="tech-tag">Express</span>
+                                <span class="tech-tag">Socket.io</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="View live demo">
+                                    <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                                    Live Demo
+                                </a>
+                                <a href="#" class="project-link" aria-label="View source code">
+                                    <i class="fab fa-github" aria-hidden="true"></i>
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="project-card">
+                        <div class="project-image" aria-label="Weather Dashboard Preview"></div>
+                        <div class="project-content">
+                            <h3 class="project-title">Weather Dashboard</h3>
+                            <p class="project-description">
+                                A responsive weather dashboard with location-based forecasts, 
+                                interactive maps, and detailed weather analytics with beautiful 
+                                data visualizations.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">TypeScript</span>
+                                <span class="tech-tag">Chart.js</span>
+                                <span class="tech-tag">API Integration</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="View live demo">
+                                    <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                                    Live Demo
+                                </a>
+                                <a href="#" class="project-link" aria-label="View source code">
+                                    <i class="fab fa-github" aria-hidden="true"></i>
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact" aria-label="Contact information">
+            <div class="container">
+                <header class="section-header">
+                    <h2 class="section-title">Let's Work Together</h2>
+                    <p class="section-subtitle">
+                        Ready to bring your ideas to life? Let's discuss your next project
+                    </p>
+                </header>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope" aria-hidden="true"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>siam579214@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone" aria-hidden="true"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Phone</h4>
+                                <p>+880 1614868908</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Location</h4>
+                                <p>Bangladesh</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form" aria-label="Contact form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input 
+                                type="text" 
+                                id="name" 
+                                name="name" 
+                                class="form-input" 
+                                required 
+                                aria-describedby="name-error"
+                            >
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input 
+                                type="email" 
+                                id="email" 
+                                name="email" 
+                                class="form-input" 
+                                required 
+                                aria-describedby="email-error"
+                            >
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input 
+                                type="text" 
+                                id="subject" 
+                                name="subject" 
+                                class="form-input" 
+                                required 
+                                aria-describedby="subject-error"
+                            >
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea 
+                                id="message" 
+                                name="message" 
+                                class="form-textarea" 
+                                rows="5" 
+                                required 
+                                aria-describedby="message-error"
+                            ></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="GitHub Profile">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="LinkedIn Profile">
+                        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Twitter Profile">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Instagram Profile">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <p>&copy; 2024 MD SIAM AHMAD. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
